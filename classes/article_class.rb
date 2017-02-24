@@ -6,15 +6,15 @@ class Article
     end
 
     def file_name
-        @file_name
+        return @file_name
     end
 
     def title
-        @title
+        return @title
     end
 
     def content
-        @content
+        return @content
     end
 
     def read_title(file_name)
