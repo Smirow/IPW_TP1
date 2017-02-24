@@ -1,0 +1,18 @@
+body {
+    margin-top: 10px;
+    background-color: #16a085;
+}
+
+.article {
+    padding: 10px 10px 10px 10px;
+}
+
+
+.article-title {
+    font-size: 2em;
+}
+
+.article-content {
+    padding-top: 10px;
+    font-size: 1em;
+}
