@@ -2,7 +2,7 @@ get '/' do
     articles = []
     page = params[:page]
     @content = ""
-    if page && page.to_i <= 3 
+    if page && page.to_i <= 3 && page.to_i > 0
         page = 3*page.to_i - 2
         pageUp = page + 2
         if pageUp > 8 
